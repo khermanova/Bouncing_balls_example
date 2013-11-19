@@ -6,7 +6,7 @@ class Ball {
   Ball() {
     loc = new PVector(random(width), random(height));
     vel = PVector.random2D();
-    d = 80;
+    d = 25;
     c = color(random(360), 100, 100);
   }
 

@@ -1,10 +1,10 @@
 //HIIIIIII THIS IS MY EDIT :) :) :)
 
-Ball[] balls = new Ball[5];
+Ball[] balls = new Ball[750];
 PVector mouse;
 
 void setup() {
-  size(500, 500);
+  size(800, 600);
   mouse = new PVector(width/2, height/2);  //This PVector will be the point the balls interact with
   colorMode(HSB, 360, 100, 100);
   for (int i = 0; i < balls.length; i++) {
